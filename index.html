@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Μάντεψε το Τραγούδι | Greek Music Trivia</title>
+    <style>
+        :root {
+            --bg-color: #050610;
+            --primary-purple: #7C3AED;
+            --accent-gold: #FCD34D;
+        }
+        body {
+            background-color: var(--bg-color);
+            color: white;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        p { color: rgba(255,255,255,0.7); font-size: 1.2rem; margin-bottom: 40px; }
+        
+        .badge-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .badge {
+            width: 180px;
+            height: auto;
+            transition: transform 0.2s;
+        }
+        .badge:hover { transform: scale(1.05); }
+        
+        /* Social Links */
+        .socials { margin-top: 50px; display: flex; gap: 20px; }
+        .socials a { color: var(--accent-gold); text-decoration: none; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <h1>Μάντεψε το Τραγούδι 🇬🇷</h1>
+    <p>Το #1 παιχνίδι ελληνικής μουσικής για εσένα και την παρέα σου.</p>
+
+    <div class="badge-container">
+        <a href="https://apps.apple.com/app/idYOUR_ID_HERE">
+            <img class="badge" src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/el-gr?size=250x83&amp;releaseDate=1276560000&h=7fc1277a91677329971930b62e49c95a" alt="Download on App Store">
+        </a>
+
+        <a href="https://play.google.com/store/apps/details?id=com.guessthegreek.music">
+            <img class="badge" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play">
+        </a>
+    </div>
+
+    <div class="socials">
+        <a href="https://www.tiktok.com/@guessthegreekapp">TikTok</a>
+        <a href="https://www.instagram.com/guess_the_greek_song/">Instagram</a>
+    </div>
+
+</body>
+</html>
